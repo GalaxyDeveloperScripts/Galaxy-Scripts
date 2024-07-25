@@ -2,7 +2,7 @@
 
 -- Gui to Lua
 -- Version: 3.2
-print("if you executed this script, you are ready to win every match")
+
 -- Instances:
 
 local ArsenalGalaxyScript = Instance.new("ScreenGui")
@@ -33,6 +33,7 @@ ArsenalFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ArsenalFrame.BorderSizePixel = 0
 ArsenalFrame.Position = UDim2.new(0.266070008, 0, 0.210801393, 0)
 ArsenalFrame.Size = UDim2.new(0, 472, 0, 310)
+ArsenalFrame.Visible = false
 
 hitboxExpander.Name = "hitbox Expander"
 hitboxExpander.Parent = ArsenalFrame
@@ -149,7 +150,7 @@ UICorner_4.Parent = OpenArsenalScript
 
 -- Scripts:
 
-local function RRFGNS_fake_script() -- hitboxExpander.Hitbox Script 
+local function IMALTWI_fake_script() -- hitboxExpander.Hitbox Script 
 	local script = Instance.new('LocalScript', hitboxExpander)
 
 	-- Script per il TextButton
@@ -199,8 +200,8 @@ local function RRFGNS_fake_script() -- hitboxExpander.Hitbox Script
 	
 	button.MouseButton1Click:Connect(onButtonClick)
 end
-coroutine.wrap(RRFGNS_fake_script)()
-local function LMGKYV_fake_script() -- ArsenalFrame.Frame spostabile del Explode UI 
+coroutine.wrap(IMALTWI_fake_script)()
+local function SECRUHO_fake_script() -- ArsenalFrame.Frame spostabile del Explode UI 
 	local script = Instance.new('LocalScript', ArsenalFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -248,67 +249,55 @@ local function LMGKYV_fake_script() -- ArsenalFrame.Frame spostabile del Explode
 	end)
 	
 end
-coroutine.wrap(LMGKYV_fake_script)()
-local function YZJG_fake_script() -- SilentAim_2.SilentAim Script 
+coroutine.wrap(SECRUHO_fake_script)()
+local function PXPTCKW_fake_script() -- SilentAim_2.SilentAim Script 
 	local script = Instance.new('LocalScript', SilentAim_2)
 
-	-- Assuming you have a ScreenGui with a Frame and a TextButton inside it
+	-- Script per il TextButton
+	local button = script.Parent
 	
-	local frame = script.Parent.Frame
-	local button = frame.TextButton
+	local function onButtonClick()
+		print("Hello, here is the Galaxy HitBox modifier")
+		print("OP follow us on Youtube and discord")
 	
-	local silentAimEnabled = false
-	
-	button.MouseButton1Click:Connect(function()
-		silentAimEnabled = not silentAimEnabled
-	
-		if silentAimEnabled then
-			-- Silent aim logic
-			local function onRenderStep()
-				-- Assuming we have a function to find targets and set the aim
-				local target = findTarget()
-				if target then
-					aimAt(target)
+		function getplrsname()
+			for i,v in pairs(game:GetChildren()) do
+				if v.ClassName == "Players" then
+					return v.Name
 				end
 			end
-	
-			game:GetService("RunService").RenderStepped:Connect(onRenderStep)
-			print("Silent aim enabled")
-		else
-			-- Disable silent aim
-			print("Silent aim disabled")
 		end
-	end)
 	
-	function findTarget()
-		-- Your logic to find the target
-		-- This should return the closest target or nil if no target is found
+		local players = getplrsname()
+		local plr = game[players].LocalPlayer
+	
+		coroutine.resume(coroutine.create(function()
+			while wait(1) do
+				coroutine.resume(coroutine.create(function()
+					for _,v in pairs(game[players]:GetPlayers()) do
+						if v.Name ~= plr.Name and v.Character then
+							v.Character.RightUpperLeg.CanCollide = false
+							v.Character.RightUpperLeg.Transparency = 50
+							v.Character.RightUpperLeg.Size = Vector3.new(13,13,13)
+	
+							v.Character.LeftUpperLeg.CanCollide = false
+							v.Character.LeftUpperLeg.Transparency = 50
+							v.Character.LeftUpperLeg.Size = Vector3.new(13,13,13)
+	
+							v.Character.HeadHB.CanCollide = false
+							v.Character.HeadHB.Transparency = 50
+							v.Character.HeadHB.Size = Vector3.new(13,13,13)
+	
+							v.Character.HumanoidRootPart.CanCollide = false
+							v.Character.HumanoidRootPart.Transparency = 50
+							v.Character.HumanoidRootPart.Size = Vector3.new(13,13,13)
+						end
+					end
+				end))
+			end
+		end))
 	end
 	
-	function aimAt(target)
-		-- Your logic to aim at the target
-		-- This might involve setting the camera or the player's aim direction
-	end
-	
+	button.MouseButton1Click:Connect(onButtonClick)
 end
-coroutine.wrap(YZJG_fake_script)()
-local function LSBM_fake_script() -- ArsenalGalaxyScript.open and close script 
-	local script = Instance.new('LocalScript', ArsenalGalaxyScript)
-
-	
-	--//varibles
-	local frame = script.Parent["Arsenal Frame"] --Make sure the last one matches with the frame name
-	local open = script.Parent.OpenArsenalScript --Make sure the last one matches with the button name
-	local exitbutton = frame["Close X"] --Make sure the last one matches with the exit button name
-	--//Open the Frame Script
-	open.MouseButton1Click:Connect(function()--When the player clicks the button
-		frame.Visible = true --The Frame Appears
-		open.Visible = false --The Open Frame Button Dissapears
-	end)
-	--//Close Frame Script
-	exitbutton.MouseButton1Click:Connect(function()
-		frame.Visible = false --The Frame Dissapears
-		open.Visible = true --The Open Frame Button Appears
-	end)
-end
-coroutine.wrap(LSBM_fake_script)()
+coroutine.wrap(PXPTCKW_fake_script)()
