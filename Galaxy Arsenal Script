@@ -2,7 +2,7 @@
 
 -- Gui to Lua
 -- Version: 3.2
-
+print("if you executed this script, you are ready to win every match")
 -- Instances:
 
 local ArsenalGalaxyScript = Instance.new("ScreenGui")
@@ -149,7 +149,7 @@ UICorner_4.Parent = OpenArsenalScript
 
 -- Scripts:
 
-local function JHFFB_fake_script() -- hitboxExpander.Hitbox Script 
+local function RRFGNS_fake_script() -- hitboxExpander.Hitbox Script 
 	local script = Instance.new('LocalScript', hitboxExpander)
 
 	-- Script per il TextButton
@@ -199,8 +199,8 @@ local function JHFFB_fake_script() -- hitboxExpander.Hitbox Script
 	
 	button.MouseButton1Click:Connect(onButtonClick)
 end
-coroutine.wrap(JHFFB_fake_script)()
-local function ZCUHIE_fake_script() -- ArsenalFrame.Frame spostabile del Explode UI 
+coroutine.wrap(RRFGNS_fake_script)()
+local function LMGKYV_fake_script() -- ArsenalFrame.Frame spostabile del Explode UI 
 	local script = Instance.new('LocalScript', ArsenalFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -248,8 +248,8 @@ local function ZCUHIE_fake_script() -- ArsenalFrame.Frame spostabile del Explode
 	end)
 	
 end
-coroutine.wrap(ZCUHIE_fake_script)()
-local function MKMCDYM_fake_script() -- SilentAim_2.SilentAim Script 
+coroutine.wrap(LMGKYV_fake_script)()
+local function YZJG_fake_script() -- SilentAim_2.SilentAim Script 
 	local script = Instance.new('LocalScript', SilentAim_2)
 
 	-- Assuming you have a ScreenGui with a Frame and a TextButton inside it
@@ -291,8 +291,8 @@ local function MKMCDYM_fake_script() -- SilentAim_2.SilentAim Script
 	end
 	
 end
-coroutine.wrap(MKMCDYM_fake_script)()
-local function LCKT_fake_script() -- ArsenalGalaxyScript.open and close script 
+coroutine.wrap(YZJG_fake_script)()
+local function LSBM_fake_script() -- ArsenalGalaxyScript.open and close script 
 	local script = Instance.new('LocalScript', ArsenalGalaxyScript)
 
 	
@@ -311,4 +311,4 @@ local function LCKT_fake_script() -- ArsenalGalaxyScript.open and close script
 		open.Visible = true --The Open Frame Button Appears
 	end)
 end
-coroutine.wrap(LCKT_fake_script)()
+coroutine.wrap(LSBM_fake_script)()
