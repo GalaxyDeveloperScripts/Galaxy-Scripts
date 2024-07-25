@@ -1,1 +1,314 @@
-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
+-- if its not in that server (https://discord.gg/Y5XpdBNvcF) and the person says is his own script than sorry is fake  because the real script is that i made on the server and this player did copy and paste changing the ui (problably)
+
+-- Gui to Lua
+-- Version: 3.2
+print("if you executed this script, you are ready to win every match")
+-- Instances:
+
+local ArsenalGalaxyScript = Instance.new("ScreenGui")
+local ArsenalFrame = Instance.new("Frame")
+local hitboxExpander = Instance.new("TextButton")
+local hitbox = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local CloseX = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local SilentAim = Instance.new("TextLabel")
+local SilentAim_2 = Instance.new("TextButton")
+local OpenArsenalScript = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+
+--Properties:
+
+ArsenalGalaxyScript.Name = "Arsenal Galaxy Script"
+ArsenalGalaxyScript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ArsenalGalaxyScript.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ArsenalFrame.Name = "Arsenal Frame"
+ArsenalFrame.Parent = ArsenalGalaxyScript
+ArsenalFrame.BackgroundColor3 = Color3.fromRGB(102, 103, 103)
+ArsenalFrame.BackgroundTransparency = 0.100
+ArsenalFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ArsenalFrame.BorderSizePixel = 0
+ArsenalFrame.Position = UDim2.new(0.266070008, 0, 0.210801393, 0)
+ArsenalFrame.Size = UDim2.new(0, 472, 0, 310)
+
+hitboxExpander.Name = "hitbox Expander"
+hitboxExpander.Parent = ArsenalFrame
+hitboxExpander.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+hitboxExpander.BackgroundTransparency = 0.160
+hitboxExpander.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hitboxExpander.BorderSizePixel = 0
+hitboxExpander.Position = UDim2.new(0.671610177, 0, 0.205049083, 0)
+hitboxExpander.Size = UDim2.new(0, 93, 0, 34)
+hitboxExpander.Font = Enum.Font.SourceSansBold
+hitboxExpander.Text = "active"
+hitboxExpander.TextColor3 = Color3.fromRGB(255, 255, 255)
+hitboxExpander.TextScaled = true
+hitboxExpander.TextSize = 14.000
+hitboxExpander.TextWrapped = true
+
+hitbox.Name = "hitbox"
+hitbox.Parent = ArsenalFrame
+hitbox.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+hitbox.BackgroundTransparency = 0.160
+hitbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hitbox.BorderSizePixel = 0
+hitbox.Position = UDim2.new(0.097457625, 0, 0.205049083, 0)
+hitbox.Size = UDim2.new(0, 200, 0, 34)
+hitbox.Font = Enum.Font.SourceSansBold
+hitbox.Text = "Hitbox increase"
+hitbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+hitbox.TextScaled = true
+hitbox.TextSize = 14.000
+hitbox.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = ArsenalFrame
+Title.BackgroundColor3 = Color3.fromRGB(102, 103, 103)
+Title.BackgroundTransparency = 0.100
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 424, 0, 43)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Galaxy Arsenal Script"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+UICorner.Parent = Title
+
+UICorner_2.Parent = ArsenalFrame
+
+CloseX.Name = "Close X"
+CloseX.Parent = ArsenalFrame
+CloseX.BackgroundColor3 = Color3.fromRGB(102, 103, 103)
+CloseX.BackgroundTransparency = 0.100
+CloseX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseX.BorderSizePixel = 0
+CloseX.Position = UDim2.new(0.868644059, 0, 0, 0)
+CloseX.Size = UDim2.new(0, 62, 0, 50)
+CloseX.Font = Enum.Font.SourceSansBold
+CloseX.Text = "X"
+CloseX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseX.TextScaled = true
+CloseX.TextSize = 14.000
+CloseX.TextWrapped = true
+
+UICorner_3.Parent = CloseX
+
+SilentAim.Name = "SilentAim"
+SilentAim.Parent = ArsenalFrame
+SilentAim.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+SilentAim.BackgroundTransparency = 0.160
+SilentAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.BorderSizePixel = 0
+SilentAim.Position = UDim2.new(0.097457625, 0, 0.363113612, 0)
+SilentAim.Size = UDim2.new(0, 200, 0, 34)
+SilentAim.Font = Enum.Font.SourceSansBold
+SilentAim.Text = "SilentAim (BanAlert)"
+SilentAim.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim.TextScaled = true
+SilentAim.TextSize = 14.000
+SilentAim.TextWrapped = true
+
+SilentAim_2.Name = "SilentAim"
+SilentAim_2.Parent = ArsenalFrame
+SilentAim_2.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+SilentAim_2.BackgroundTransparency = 0.160
+SilentAim_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_2.BorderSizePixel = 0
+SilentAim_2.Position = UDim2.new(0.671610177, 0, 0.363113612, 0)
+SilentAim_2.Size = UDim2.new(0, 93, 0, 34)
+SilentAim_2.Font = Enum.Font.SourceSansBold
+SilentAim_2.Text = "active"
+SilentAim_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim_2.TextScaled = true
+SilentAim_2.TextSize = 14.000
+SilentAim_2.TextWrapped = true
+
+OpenArsenalScript.Name = "OpenArsenalScript"
+OpenArsenalScript.Parent = ArsenalGalaxyScript
+OpenArsenalScript.BackgroundColor3 = Color3.fromRGB(71, 72, 72)
+OpenArsenalScript.BackgroundTransparency = 0.300
+OpenArsenalScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenArsenalScript.BorderSizePixel = 0
+OpenArsenalScript.Position = UDim2.new(0.691801012, 0, -0.0261324048, 0)
+OpenArsenalScript.Size = UDim2.new(0, 65, 0, 63)
+OpenArsenalScript.Visible = false
+OpenArsenalScript.Font = Enum.Font.SourceSansBold
+OpenArsenalScript.Text = "Open"
+OpenArsenalScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenArsenalScript.TextScaled = true
+OpenArsenalScript.TextSize = 14.000
+OpenArsenalScript.TextWrapped = true
+
+UICorner_4.Parent = OpenArsenalScript
+
+-- Scripts:
+
+local function RRFGNS_fake_script() -- hitboxExpander.Hitbox Script 
+	local script = Instance.new('LocalScript', hitboxExpander)
+
+	-- Script per il TextButton
+	local button = script.Parent
+	
+	local function onButtonClick()
+		print("Hello, here is the Galaxy HitBox modifier")
+		print("OP follow us on Youtube and discord")
+	
+		function getplrsname()
+			for i,v in pairs(game:GetChildren()) do
+				if v.ClassName == "Players" then
+					return v.Name
+				end
+			end
+		end
+	
+		local players = getplrsname()
+		local plr = game[players].LocalPlayer
+	
+		coroutine.resume(coroutine.create(function()
+			while wait(1) do
+				coroutine.resume(coroutine.create(function()
+					for _,v in pairs(game[players]:GetPlayers()) do
+						if v.Name ~= plr.Name and v.Character then
+							v.Character.RightUpperLeg.CanCollide = false
+							v.Character.RightUpperLeg.Transparency = 10
+							v.Character.RightUpperLeg.Size = Vector3.new(13,13,13)
+	
+							v.Character.LeftUpperLeg.CanCollide = false
+							v.Character.LeftUpperLeg.Transparency = 10
+							v.Character.LeftUpperLeg.Size = Vector3.new(13,13,13)
+	
+							v.Character.HeadHB.CanCollide = false
+							v.Character.HeadHB.Transparency = 10
+							v.Character.HeadHB.Size = Vector3.new(13,13,13)
+	
+							v.Character.HumanoidRootPart.CanCollide = false
+							v.Character.HumanoidRootPart.Transparency = 10
+							v.Character.HumanoidRootPart.Size = Vector3.new(13,13,13)
+						end
+					end
+				end))
+			end
+		end))
+	end
+	
+	button.MouseButton1Click:Connect(onButtonClick)
+end
+coroutine.wrap(RRFGNS_fake_script)()
+local function LMGKYV_fake_script() -- ArsenalFrame.Frame spostabile del Explode UI 
+	local script = Instance.new('LocalScript', ArsenalFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	
+	local frame = script.Parent
+	local dragging = true
+	local dragInput, mousePos, framePos
+	
+	local function update(input)
+		local delta = input.Position - mousePos
+		local newPosition = UDim2.new(
+			framePos.X.Scale,
+			framePos.X.Offset + delta.X,
+			framePos.Y.Scale,
+			framePos.Y.Offset + delta.Y
+		)
+		frame.Position = newPosition
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			mousePos = input.Position
+			framePos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(LMGKYV_fake_script)()
+local function YZJG_fake_script() -- SilentAim_2.SilentAim Script 
+	local script = Instance.new('LocalScript', SilentAim_2)
+
+	-- Assuming you have a ScreenGui with a Frame and a TextButton inside it
+	
+	local frame = script.Parent.Frame
+	local button = frame.TextButton
+	
+	local silentAimEnabled = false
+	
+	button.MouseButton1Click:Connect(function()
+		silentAimEnabled = not silentAimEnabled
+	
+		if silentAimEnabled then
+			-- Silent aim logic
+			local function onRenderStep()
+				-- Assuming we have a function to find targets and set the aim
+				local target = findTarget()
+				if target then
+					aimAt(target)
+				end
+			end
+	
+			game:GetService("RunService").RenderStepped:Connect(onRenderStep)
+			print("Silent aim enabled")
+		else
+			-- Disable silent aim
+			print("Silent aim disabled")
+		end
+	end)
+	
+	function findTarget()
+		-- Your logic to find the target
+		-- This should return the closest target or nil if no target is found
+	end
+	
+	function aimAt(target)
+		-- Your logic to aim at the target
+		-- This might involve setting the camera or the player's aim direction
+	end
+	
+end
+coroutine.wrap(YZJG_fake_script)()
+local function LSBM_fake_script() -- ArsenalGalaxyScript.open and close script 
+	local script = Instance.new('LocalScript', ArsenalGalaxyScript)
+
+	
+	--//varibles
+	local frame = script.Parent["Arsenal Frame"] --Make sure the last one matches with the frame name
+	local open = script.Parent.OpenArsenalScript --Make sure the last one matches with the button name
+	local exitbutton = frame["Close X"] --Make sure the last one matches with the exit button name
+	--//Open the Frame Script
+	open.MouseButton1Click:Connect(function()--When the player clicks the button
+		frame.Visible = true --The Frame Appears
+		open.Visible = false --The Open Frame Button Dissapears
+	end)
+	--//Close Frame Script
+	exitbutton.MouseButton1Click:Connect(function()
+		frame.Visible = false --The Frame Dissapears
+		open.Visible = true --The Open Frame Button Appears
+	end)
+end
+coroutine.wrap(LSBM_fake_script)()
