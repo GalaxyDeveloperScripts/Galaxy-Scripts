@@ -1,0 +1,314 @@
+-- if its not in that server (https://discord.gg/Y5XpdBNvcF) and the person says is his own script than sorry is fake  because the real script is that i made on the server and this player did copy and paste changing the ui (problably)
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ArsenalGalaxyScript = Instance.new("ScreenGui")
+local ArsenalFrame = Instance.new("Frame")
+local hitboxExpander = Instance.new("TextButton")
+local hitbox = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local CloseX = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local SilentAim = Instance.new("TextLabel")
+local SilentAim_2 = Instance.new("TextButton")
+local OpenArsenalScript = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+
+--Properties:
+
+ArsenalGalaxyScript.Name = "Arsenal Galaxy Script"
+ArsenalGalaxyScript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ArsenalGalaxyScript.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ArsenalFrame.Name = "Arsenal Frame"
+ArsenalFrame.Parent = ArsenalGalaxyScript
+ArsenalFrame.BackgroundColor3 = Color3.fromRGB(102, 103, 103)
+ArsenalFrame.BackgroundTransparency = 0.100
+ArsenalFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ArsenalFrame.BorderSizePixel = 0
+ArsenalFrame.Position = UDim2.new(0.266070008, 0, 0.210801393, 0)
+ArsenalFrame.Size = UDim2.new(0, 472, 0, 310)
+
+hitboxExpander.Name = "hitbox Expander"
+hitboxExpander.Parent = ArsenalFrame
+hitboxExpander.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+hitboxExpander.BackgroundTransparency = 0.160
+hitboxExpander.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hitboxExpander.BorderSizePixel = 0
+hitboxExpander.Position = UDim2.new(0.671610177, 0, 0.205049083, 0)
+hitboxExpander.Size = UDim2.new(0, 93, 0, 34)
+hitboxExpander.Font = Enum.Font.SourceSansBold
+hitboxExpander.Text = "active"
+hitboxExpander.TextColor3 = Color3.fromRGB(255, 255, 255)
+hitboxExpander.TextScaled = true
+hitboxExpander.TextSize = 14.000
+hitboxExpander.TextWrapped = true
+
+hitbox.Name = "hitbox"
+hitbox.Parent = ArsenalFrame
+hitbox.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+hitbox.BackgroundTransparency = 0.160
+hitbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hitbox.BorderSizePixel = 0
+hitbox.Position = UDim2.new(0.097457625, 0, 0.205049083, 0)
+hitbox.Size = UDim2.new(0, 200, 0, 34)
+hitbox.Font = Enum.Font.SourceSansBold
+hitbox.Text = "Hitbox increase"
+hitbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+hitbox.TextScaled = true
+hitbox.TextSize = 14.000
+hitbox.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = ArsenalFrame
+Title.BackgroundColor3 = Color3.fromRGB(102, 103, 103)
+Title.BackgroundTransparency = 0.100
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 424, 0, 43)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Galaxy Arsenal Script"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+UICorner.Parent = Title
+
+UICorner_2.Parent = ArsenalFrame
+
+CloseX.Name = "Close X"
+CloseX.Parent = ArsenalFrame
+CloseX.BackgroundColor3 = Color3.fromRGB(102, 103, 103)
+CloseX.BackgroundTransparency = 0.100
+CloseX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseX.BorderSizePixel = 0
+CloseX.Position = UDim2.new(0.868644059, 0, 0, 0)
+CloseX.Size = UDim2.new(0, 62, 0, 50)
+CloseX.Font = Enum.Font.SourceSansBold
+CloseX.Text = "X"
+CloseX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseX.TextScaled = true
+CloseX.TextSize = 14.000
+CloseX.TextWrapped = true
+
+UICorner_3.Parent = CloseX
+
+SilentAim.Name = "SilentAim"
+SilentAim.Parent = ArsenalFrame
+SilentAim.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+SilentAim.BackgroundTransparency = 0.160
+SilentAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.BorderSizePixel = 0
+SilentAim.Position = UDim2.new(0.097457625, 0, 0.363113612, 0)
+SilentAim.Size = UDim2.new(0, 200, 0, 34)
+SilentAim.Font = Enum.Font.SourceSansBold
+SilentAim.Text = "SilentAim (BanAlert)"
+SilentAim.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim.TextScaled = true
+SilentAim.TextSize = 14.000
+SilentAim.TextWrapped = true
+
+SilentAim_2.Name = "SilentAim"
+SilentAim_2.Parent = ArsenalFrame
+SilentAim_2.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+SilentAim_2.BackgroundTransparency = 0.160
+SilentAim_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_2.BorderSizePixel = 0
+SilentAim_2.Position = UDim2.new(0.671610177, 0, 0.363113612, 0)
+SilentAim_2.Size = UDim2.new(0, 93, 0, 34)
+SilentAim_2.Font = Enum.Font.SourceSansBold
+SilentAim_2.Text = "active"
+SilentAim_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim_2.TextScaled = true
+SilentAim_2.TextSize = 14.000
+SilentAim_2.TextWrapped = true
+
+OpenArsenalScript.Name = "OpenArsenalScript"
+OpenArsenalScript.Parent = ArsenalGalaxyScript
+OpenArsenalScript.BackgroundColor3 = Color3.fromRGB(71, 72, 72)
+OpenArsenalScript.BackgroundTransparency = 0.300
+OpenArsenalScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenArsenalScript.BorderSizePixel = 0
+OpenArsenalScript.Position = UDim2.new(0.691801012, 0, -0.0261324048, 0)
+OpenArsenalScript.Size = UDim2.new(0, 65, 0, 63)
+OpenArsenalScript.Visible = false
+OpenArsenalScript.Font = Enum.Font.SourceSansBold
+OpenArsenalScript.Text = "Open"
+OpenArsenalScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenArsenalScript.TextScaled = true
+OpenArsenalScript.TextSize = 14.000
+OpenArsenalScript.TextWrapped = true
+
+UICorner_4.Parent = OpenArsenalScript
+
+-- Scripts:
+
+local function JHFFB_fake_script() -- hitboxExpander.Hitbox Script 
+	local script = Instance.new('LocalScript', hitboxExpander)
+
+	-- Script per il TextButton
+	local button = script.Parent
+	
+	local function onButtonClick()
+		print("Hello, here is the Galaxy HitBox modifier")
+		print("OP follow us on Youtube and discord")
+	
+		function getplrsname()
+			for i,v in pairs(game:GetChildren()) do
+				if v.ClassName == "Players" then
+					return v.Name
+				end
+			end
+		end
+	
+		local players = getplrsname()
+		local plr = game[players].LocalPlayer
+	
+		coroutine.resume(coroutine.create(function()
+			while wait(1) do
+				coroutine.resume(coroutine.create(function()
+					for _,v in pairs(game[players]:GetPlayers()) do
+						if v.Name ~= plr.Name and v.Character then
+							v.Character.RightUpperLeg.CanCollide = false
+							v.Character.RightUpperLeg.Transparency = 10
+							v.Character.RightUpperLeg.Size = Vector3.new(13,13,13)
+	
+							v.Character.LeftUpperLeg.CanCollide = false
+							v.Character.LeftUpperLeg.Transparency = 10
+							v.Character.LeftUpperLeg.Size = Vector3.new(13,13,13)
+	
+							v.Character.HeadHB.CanCollide = false
+							v.Character.HeadHB.Transparency = 10
+							v.Character.HeadHB.Size = Vector3.new(13,13,13)
+	
+							v.Character.HumanoidRootPart.CanCollide = false
+							v.Character.HumanoidRootPart.Transparency = 10
+							v.Character.HumanoidRootPart.Size = Vector3.new(13,13,13)
+						end
+					end
+				end))
+			end
+		end))
+	end
+	
+	button.MouseButton1Click:Connect(onButtonClick)
+end
+coroutine.wrap(JHFFB_fake_script)()
+local function ZCUHIE_fake_script() -- ArsenalFrame.Frame spostabile del Explode UI 
+	local script = Instance.new('LocalScript', ArsenalFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	
+	local frame = script.Parent
+	local dragging = true
+	local dragInput, mousePos, framePos
+	
+	local function update(input)
+		local delta = input.Position - mousePos
+		local newPosition = UDim2.new(
+			framePos.X.Scale,
+			framePos.X.Offset + delta.X,
+			framePos.Y.Scale,
+			framePos.Y.Offset + delta.Y
+		)
+		frame.Position = newPosition
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			mousePos = input.Position
+			framePos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(ZCUHIE_fake_script)()
+local function MKMCDYM_fake_script() -- SilentAim_2.SilentAim Script 
+	local script = Instance.new('LocalScript', SilentAim_2)
+
+	-- Assuming you have a ScreenGui with a Frame and a TextButton inside it
+	
+	local frame = script.Parent.Frame
+	local button = frame.TextButton
+	
+	local silentAimEnabled = false
+	
+	button.MouseButton1Click:Connect(function()
+		silentAimEnabled = not silentAimEnabled
+	
+		if silentAimEnabled then
+			-- Silent aim logic
+			local function onRenderStep()
+				-- Assuming we have a function to find targets and set the aim
+				local target = findTarget()
+				if target then
+					aimAt(target)
+				end
+			end
+	
+			game:GetService("RunService").RenderStepped:Connect(onRenderStep)
+			print("Silent aim enabled")
+		else
+			-- Disable silent aim
+			print("Silent aim disabled")
+		end
+	end)
+	
+	function findTarget()
+		-- Your logic to find the target
+		-- This should return the closest target or nil if no target is found
+	end
+	
+	function aimAt(target)
+		-- Your logic to aim at the target
+		-- This might involve setting the camera or the player's aim direction
+	end
+	
+end
+coroutine.wrap(MKMCDYM_fake_script)()
+local function LCKT_fake_script() -- ArsenalGalaxyScript.open and close script 
+	local script = Instance.new('LocalScript', ArsenalGalaxyScript)
+
+	
+	--//varibles
+	local frame = script.Parent["Arsenal Frame"] --Make sure the last one matches with the frame name
+	local open = script.Parent.OpenArsenalScript --Make sure the last one matches with the button name
+	local exitbutton = frame["Close X"] --Make sure the last one matches with the exit button name
+	--//Open the Frame Script
+	open.MouseButton1Click:Connect(function()--When the player clicks the button
+		frame.Visible = true --The Frame Appears
+		open.Visible = false --The Open Frame Button Dissapears
+	end)
+	--//Close Frame Script
+	exitbutton.MouseButton1Click:Connect(function()
+		frame.Visible = false --The Frame Dissapears
+		open.Visible = true --The Open Frame Button Appears
+	end)
+end
+coroutine.wrap(LCKT_fake_script)()
