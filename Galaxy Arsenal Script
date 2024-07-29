@@ -1,157 +1,341 @@
 -- if its not in that server (https://discord.gg/Y5XpdBNvcF) and the person says is his own script than sorry is fake  because the real script is that i made on the server and this player did copy and paste changing the ui (problably)
+-- test version v0.4, pls follow on youtube and join our discord server
+-- Made By Galaxy Development Team
+-- Version: 0.4
+-- Pls Join Our discord and follow on yt
 
 -- Gui to Lua
 -- Version: 3.2
 
--- Instances:
-
-local ArsenalGalaxyScript = Instance.new("ScreenGui")
-local ArsenalFrame = Instance.new("Frame")
-local hitboxExpander = Instance.new("TextButton")
-local hitbox = Instance.new("TextLabel")
-local Title = Instance.new("TextLabel")
+local GalacticHUBarsenalscript = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
+local ListaPages = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
-local CloseX = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local SilentAim = Instance.new("TextLabel")
-local SilentAim_2 = Instance.new("TextButton")
-local OpenArsenalScript = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
+local VisualScripts = Instance.new("Frame")
+local SpeedShotButton = Instance.new("TextButton")
+local HitBoxbutton = Instance.new("TextButton")
+local InfiniteAmmoButton = Instance.new("TextButton")
+local EspEnableButton = Instance.new("TextButton")
+local Soon2 = Instance.new("TextButton")
+local Soon3 = Instance.new("TextButton")
+local Soon4 = Instance.new("TextButton")
+local Soon5 = Instance.new("TextButton")
+local lineadivisione = Instance.new("TextLabel")
+local espenable = Instance.new("TextLabel")
+local soon2 = Instance.new("TextLabel")
+local soon3 = Instance.new("TextLabel")
+local soon4 = Instance.new("TextLabel")
+local soon5 = Instance.new("TextLabel")
+local Speedshottest = Instance.new("TextLabel")
+local Hitbox = Instance.new("TextLabel")
+local InfAmmo = Instance.new("TextLabel")
+local secondalineadivisione = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local Closed = Instance.new("TextButton")
 
---Properties:
+GalacticHUBarsenalscript.Name = "Galactic HUB arsenal script"
+GalacticHUBarsenalscript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+GalacticHUBarsenalscript.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-ArsenalGalaxyScript.Name = "Arsenal Galaxy Script"
-ArsenalGalaxyScript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ArsenalGalaxyScript.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Frame.Parent = GalacticHUBarsenalscript
+Frame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Frame.BackgroundTransparency = 0.100
+Frame.BorderColor3 = Color3.fromRGB(49, 49, 49)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.212943733, 0, 0.433799446, 0)
+Frame.Size = UDim2.new(0, 336, 0, 201)
 
-ArsenalFrame.Name = "Arsenal Frame"
-ArsenalFrame.Parent = ArsenalGalaxyScript
-ArsenalFrame.BackgroundColor3 = Color3.fromRGB(102, 103, 103)
-ArsenalFrame.BackgroundTransparency = 0.100
-ArsenalFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ArsenalFrame.BorderSizePixel = 0
-ArsenalFrame.Position = UDim2.new(0.266070008, 0, 0.210801393, 0)
-ArsenalFrame.Size = UDim2.new(0, 472, 0, 310)
-ArsenalFrame.Visible = false
+UICorner.Parent = Frame
 
-hitboxExpander.Name = "hitbox Expander"
-hitboxExpander.Parent = ArsenalFrame
-hitboxExpander.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-hitboxExpander.BackgroundTransparency = 0.160
-hitboxExpander.BorderColor3 = Color3.fromRGB(0, 0, 0)
-hitboxExpander.BorderSizePixel = 0
-hitboxExpander.Position = UDim2.new(0.671610177, 0, 0.205049083, 0)
-hitboxExpander.Size = UDim2.new(0, 93, 0, 34)
-hitboxExpander.Font = Enum.Font.SourceSansBold
-hitboxExpander.Text = "active"
-hitboxExpander.TextColor3 = Color3.fromRGB(255, 255, 255)
-hitboxExpander.TextScaled = true
-hitboxExpander.TextSize = 14.000
-hitboxExpander.TextWrapped = true
+ListaPages.Name = "Lista Pages"
+ListaPages.Parent = Frame
+ListaPages.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+ListaPages.BackgroundTransparency = 0.100
+ListaPages.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ListaPages.BorderSizePixel = 0
+ListaPages.Position = UDim2.new(1.0443095, 0, -0.00279137143, 0)
+ListaPages.Size = UDim2.new(0, 33, 0, 203)
 
-hitbox.Name = "hitbox"
-hitbox.Parent = ArsenalFrame
-hitbox.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-hitbox.BackgroundTransparency = 0.160
-hitbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
-hitbox.BorderSizePixel = 0
-hitbox.Position = UDim2.new(0.097457625, 0, 0.205049083, 0)
-hitbox.Size = UDim2.new(0, 200, 0, 34)
-hitbox.Font = Enum.Font.SourceSansBold
-hitbox.Text = "Hitbox increase"
-hitbox.TextColor3 = Color3.fromRGB(255, 255, 255)
-hitbox.TextScaled = true
-hitbox.TextSize = 14.000
-hitbox.TextWrapped = true
+UICorner_2.Parent = ListaPages
+
+VisualScripts.Name = "Visual Scripts"
+VisualScripts.Parent = Frame
+VisualScripts.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+VisualScripts.BackgroundTransparency = 1.000
+VisualScripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VisualScripts.BorderSizePixel = 0
+VisualScripts.Position = UDim2.new(0, 0, 0.213930354, 0)
+VisualScripts.Size = UDim2.new(0, 336, 0, 158)
+
+SpeedShotButton.Name = "SpeedShotButton"
+SpeedShotButton.Parent = VisualScripts
+SpeedShotButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SpeedShotButton.BackgroundTransparency = 0.870
+SpeedShotButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpeedShotButton.BorderSizePixel = 0
+SpeedShotButton.Position = UDim2.new(0.284253627, 0, 0.428696066, 0)
+SpeedShotButton.Size = UDim2.new(0, 55, 0, 21)
+SpeedShotButton.Font = Enum.Font.SourceSansBold
+SpeedShotButton.Text = "Click"
+SpeedShotButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedShotButton.TextSize = 14.000
+
+HitBoxbutton.Name = "HitBox button"
+HitBoxbutton.Parent = VisualScripts
+HitBoxbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HitBoxbutton.BackgroundTransparency = 0.870
+HitBoxbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HitBoxbutton.BorderSizePixel = 0
+HitBoxbutton.Position = UDim2.new(0.284253627, 0, 0.0388788134, 0)
+HitBoxbutton.Size = UDim2.new(0, 55, 0, 21)
+HitBoxbutton.Font = Enum.Font.SourceSansBold
+HitBoxbutton.Text = "Click"
+HitBoxbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HitBoxbutton.TextSize = 14.000
+
+InfiniteAmmoButton.Name = "InfiniteAmmoButton"
+InfiniteAmmoButton.Parent = VisualScripts
+InfiniteAmmoButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteAmmoButton.BackgroundTransparency = 0.870
+InfiniteAmmoButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteAmmoButton.BorderSizePixel = 0
+InfiniteAmmoButton.Position = UDim2.new(0.284253627, 0, 0.239415035, 0)
+InfiniteAmmoButton.Size = UDim2.new(0, 55, 0, 21)
+InfiniteAmmoButton.Font = Enum.Font.SourceSansBold
+InfiniteAmmoButton.Text = "Click"
+InfiniteAmmoButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteAmmoButton.TextSize = 14.000
+
+EspEnableButton.Name = "EspEnableButton"
+EspEnableButton.Parent = VisualScripts
+EspEnableButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+EspEnableButton.BackgroundTransparency = 0.870
+EspEnableButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EspEnableButton.BorderSizePixel = 0
+EspEnableButton.Position = UDim2.new(0.284253627, 0, 0.630635321, 0)
+EspEnableButton.Size = UDim2.new(0, 55, 0, 21)
+EspEnableButton.Font = Enum.Font.SourceSansBold
+EspEnableButton.Text = "Click"
+EspEnableButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+EspEnableButton.TextSize = 14.000
+
+Soon2.Name = "Soon... 2"
+Soon2.Parent = VisualScripts
+Soon2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Soon2.BackgroundTransparency = 0.870
+Soon2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Soon2.BorderSizePixel = 0
+Soon2.Position = UDim2.new(0.798795164, 0, 0.0388788134, 0)
+Soon2.Size = UDim2.new(0, 55, 0, 21)
+Soon2.Font = Enum.Font.SourceSansBold
+Soon2.Text = "Click"
+Soon2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Soon2.TextSize = 14.000
+
+Soon3.Name = "Soon... 3"
+Soon3.Parent = VisualScripts
+Soon3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Soon3.BackgroundTransparency = 0.870
+Soon3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Soon3.BorderSizePixel = 0
+Soon3.Position = UDim2.new(0.798795164, 0, 0.233085915, 0)
+Soon3.Size = UDim2.new(0, 55, 0, 21)
+Soon3.Font = Enum.Font.SourceSansBold
+Soon3.Text = "Click"
+Soon3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Soon3.TextSize = 14.000
+
+Soon4.Name = "Soon... 4"
+Soon4.Parent = VisualScripts
+Soon4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Soon4.BackgroundTransparency = 0.870
+Soon4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Soon4.BorderSizePixel = 0
+Soon4.Position = UDim2.new(0.798795164, 0, 0.428696066, 0)
+Soon4.Size = UDim2.new(0, 55, 0, 21)
+Soon4.Font = Enum.Font.SourceSansBold
+Soon4.Text = "Click"
+Soon4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Soon4.TextSize = 14.000
+
+Soon5.Name = "Soon... 5"
+Soon5.Parent = VisualScripts
+Soon5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Soon5.BackgroundTransparency = 0.870
+Soon5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Soon5.BorderSizePixel = 0
+Soon5.Position = UDim2.new(0.798795164, 0, 0.630635321, 0)
+Soon5.Size = UDim2.new(0, 55, 0, 21)
+Soon5.Font = Enum.Font.SourceSansBold
+Soon5.Text = "Click"
+Soon5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Soon5.TextSize = 14.000
+
+lineadivisione.Name = "linea divisione"
+lineadivisione.Parent = VisualScripts
+lineadivisione.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lineadivisione.BackgroundTransparency = 1.000
+lineadivisione.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lineadivisione.BorderSizePixel = 0
+lineadivisione.Position = UDim2.new(0.352999985, 0, -0.430999994, 0)
+lineadivisione.Size = UDim2.new(0, 97, 0, 189)
+lineadivisione.Font = Enum.Font.SourceSans
+lineadivisione.Text = "|"
+lineadivisione.TextColor3 = Color3.fromRGB(255, 255, 255)
+lineadivisione.TextScaled = true
+lineadivisione.TextSize = 100.000
+lineadivisione.TextWrapped = true
+
+espenable.Name = "esp enable"
+espenable.Parent = VisualScripts
+espenable.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+espenable.BackgroundTransparency = 1.000
+espenable.BorderColor3 = Color3.fromRGB(0, 0, 0)
+espenable.BorderSizePixel = 0
+espenable.Position = UDim2.new(-0.115868978, 0, 0.630635321, 0)
+espenable.Size = UDim2.new(0, 182, 0, 21)
+espenable.Font = Enum.Font.SourceSansBold
+espenable.Text = "EspEnable"
+espenable.TextColor3 = Color3.fromRGB(255, 255, 255)
+espenable.TextSize = 17.000
+
+soon2.Name = "soon... 2"
+soon2.Parent = VisualScripts
+soon2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+soon2.BackgroundTransparency = 1.000
+soon2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+soon2.BorderSizePixel = 0
+soon2.Position = UDim2.new(0.381162554, 0, 0.235081345, 0)
+soon2.Size = UDim2.new(0, 182, 0, 21)
+soon2.Font = Enum.Font.SourceSansBold
+soon2.Text = "Soon..."
+soon2.TextColor3 = Color3.fromRGB(255, 255, 255)
+soon2.TextSize = 22.000
+
+soon3.Name = "soon... 3"
+soon3.Parent = VisualScripts
+soon3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+soon3.BackgroundTransparency = 1.000
+soon3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+soon3.BorderSizePixel = 0
+soon3.Position = UDim2.new(0.381162554, 0, 0.625490963, 0)
+soon3.Size = UDim2.new(0, 182, 0, 21)
+soon3.Font = Enum.Font.SourceSansBold
+soon3.Text = "Soon..."
+soon3.TextColor3 = Color3.fromRGB(255, 255, 255)
+soon3.TextSize = 22.000
+
+soon4.Name = "soon... 4"
+soon4.Parent = VisualScripts
+soon4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+soon4.BackgroundTransparency = 1.000
+soon4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+soon4.BorderSizePixel = 0
+soon4.Position = UDim2.new(0.381162554, 0, 0.042620115, 0)
+soon4.Size = UDim2.new(0, 182, 0, 21)
+soon4.Font = Enum.Font.SourceSansBold
+soon4.Text = "Soon..."
+soon4.TextColor3 = Color3.fromRGB(255, 255, 255)
+soon4.TextSize = 22.000
+
+soon5.Name = "soon... 5"
+soon5.Parent = VisualScripts
+soon5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+soon5.BackgroundTransparency = 1.000
+soon5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+soon5.BorderSizePixel = 0
+soon5.Position = UDim2.new(0.381162554, 0, 0.447091013, 0)
+soon5.Size = UDim2.new(0, 182, 0, 21)
+soon5.Font = Enum.Font.SourceSansBold
+soon5.Text = "Soon..."
+soon5.TextColor3 = Color3.fromRGB(255, 255, 255)
+soon5.TextSize = 22.000
+
+Speedshottest.Name = "Speedshot test"
+Speedshottest.Parent = VisualScripts
+Speedshottest.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speedshottest.BackgroundTransparency = 1.000
+Speedshottest.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Speedshottest.BorderSizePixel = 0
+Speedshottest.Position = UDim2.new(-0.115868978, 0, 0.428696066, 0)
+Speedshottest.Size = UDim2.new(0, 182, 0, 21)
+Speedshottest.Font = Enum.Font.SourceSansBold
+Speedshottest.Text = "FastGun"
+Speedshottest.TextColor3 = Color3.fromRGB(255, 255, 255)
+Speedshottest.TextSize = 18.000
+
+Hitbox.Name = "Hitbox"
+Hitbox.Parent = VisualScripts
+Hitbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hitbox.BackgroundTransparency = 1.000
+Hitbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hitbox.BorderSizePixel = 0
+Hitbox.Position = UDim2.new(-0.115868978, 0, 0.0388788134, 0)
+Hitbox.Size = UDim2.new(0, 182, 0, 21)
+Hitbox.Font = Enum.Font.SourceSansBold
+Hitbox.Text = "+HitBoxes"
+Hitbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hitbox.TextSize = 18.000
+Hitbox.TextWrapped = true
+
+InfAmmo.Name = "InfAmmo"
+InfAmmo.Parent = VisualScripts
+InfAmmo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfAmmo.BackgroundTransparency = 1.000
+InfAmmo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfAmmo.BorderSizePixel = 0
+InfAmmo.Position = UDim2.new(-0.115868978, 0, 0.239415035, 0)
+InfAmmo.Size = UDim2.new(0, 182, 0, 21)
+InfAmmo.Font = Enum.Font.SourceSansBold
+InfAmmo.Text = "InfAmmo"
+InfAmmo.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfAmmo.TextSize = 18.000
+
+secondalineadivisione.Name = "seconda linea divisione"
+secondalineadivisione.Parent = VisualScripts
+secondalineadivisione.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+secondalineadivisione.BackgroundTransparency = 1.000
+secondalineadivisione.BorderColor3 = Color3.fromRGB(0, 0, 0)
+secondalineadivisione.BorderSizePixel = 0
+secondalineadivisione.Position = UDim2.new(0.353000015, 0, 0.0373544805, 0)
+secondalineadivisione.Size = UDim2.new(0, 97, 0, 189)
+secondalineadivisione.Font = Enum.Font.SourceSans
+secondalineadivisione.Text = "|"
+secondalineadivisione.TextColor3 = Color3.fromRGB(255, 255, 255)
+secondalineadivisione.TextScaled = true
+secondalineadivisione.TextSize = 100.000
+secondalineadivisione.TextWrapped = true
 
 Title.Name = "Title"
-Title.Parent = ArsenalFrame
-Title.BackgroundColor3 = Color3.fromRGB(102, 103, 103)
-Title.BackgroundTransparency = 0.100
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
 Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Title.BorderSizePixel = 0
-Title.Size = UDim2.new(0, 424, 0, 43)
+Title.Position = UDim2.new(-0.0629722923, 0, 0, 0)
+Title.Size = UDim2.new(0, 380, 0, 50)
 Title.Font = Enum.Font.SourceSansBold
-Title.Text = "Galaxy Arsenal Script"
+Title.Text = "Galactic HUB, arsenal"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title.TextScaled = true
-Title.TextSize = 14.000
+Title.TextSize = 27.000
 Title.TextWrapped = true
 
-UICorner.Parent = Title
+Closed.Name = "Closed"
+Closed.Parent = Frame
+Closed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Closed.BackgroundTransparency = 1.000
+Closed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Closed.BorderSizePixel = 0
+Closed.Position = UDim2.new(1.02380955, 0, 0.805970132, 0)
+Closed.Size = UDim2.new(0, 49, 0, 42)
+Closed.Font = Enum.Font.SourceSansBold
+Closed.Text = "X"
+Closed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Closed.TextSize = 37.000
 
-UICorner_2.Parent = ArsenalFrame
-
-CloseX.Name = "Close X"
-CloseX.Parent = ArsenalFrame
-CloseX.BackgroundColor3 = Color3.fromRGB(102, 103, 103)
-CloseX.BackgroundTransparency = 0.100
-CloseX.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CloseX.BorderSizePixel = 0
-CloseX.Position = UDim2.new(0.868644059, 0, 0, 0)
-CloseX.Size = UDim2.new(0, 62, 0, 50)
-CloseX.Font = Enum.Font.SourceSansBold
-CloseX.Text = "X"
-CloseX.TextColor3 = Color3.fromRGB(255, 255, 255)
-CloseX.TextScaled = true
-CloseX.TextSize = 14.000
-CloseX.TextWrapped = true
-
-UICorner_3.Parent = CloseX
-
-SilentAim.Name = "SilentAim"
-SilentAim.Parent = ArsenalFrame
-SilentAim.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-SilentAim.BackgroundTransparency = 0.160
-SilentAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SilentAim.BorderSizePixel = 0
-SilentAim.Position = UDim2.new(0.097457625, 0, 0.363113612, 0)
-SilentAim.Size = UDim2.new(0, 200, 0, 34)
-SilentAim.Font = Enum.Font.SourceSansBold
-SilentAim.Text = "SilentAim (BanAlert)"
-SilentAim.TextColor3 = Color3.fromRGB(255, 255, 255)
-SilentAim.TextScaled = true
-SilentAim.TextSize = 14.000
-SilentAim.TextWrapped = true
-
-SilentAim_2.Name = "SilentAim"
-SilentAim_2.Parent = ArsenalFrame
-SilentAim_2.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-SilentAim_2.BackgroundTransparency = 0.160
-SilentAim_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SilentAim_2.BorderSizePixel = 0
-SilentAim_2.Position = UDim2.new(0.671610177, 0, 0.363113612, 0)
-SilentAim_2.Size = UDim2.new(0, 93, 0, 34)
-SilentAim_2.Font = Enum.Font.SourceSansBold
-SilentAim_2.Text = "active"
-SilentAim_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-SilentAim_2.TextScaled = true
-SilentAim_2.TextSize = 14.000
-SilentAim_2.TextWrapped = true
-
-OpenArsenalScript.Name = "OpenArsenalScript"
-OpenArsenalScript.Parent = ArsenalGalaxyScript
-OpenArsenalScript.BackgroundColor3 = Color3.fromRGB(71, 72, 72)
-OpenArsenalScript.BackgroundTransparency = 0.300
-OpenArsenalScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
-OpenArsenalScript.BorderSizePixel = 0
-OpenArsenalScript.Position = UDim2.new(0.691801012, 0, -0.0261324048, 0)
-OpenArsenalScript.Size = UDim2.new(0, 65, 0, 63)
-OpenArsenalScript.Visible = false
-OpenArsenalScript.Font = Enum.Font.SourceSansBold
-OpenArsenalScript.Text = "Open"
-OpenArsenalScript.TextColor3 = Color3.fromRGB(255, 255, 255)
-OpenArsenalScript.TextScaled = true
-OpenArsenalScript.TextSize = 14.000
-OpenArsenalScript.TextWrapped = true
-
-UICorner_4.Parent = OpenArsenalScript
-
--- Scripts:
-
-local function IMALTWI_fake_script() -- hitboxExpander.Hitbox Script 
-	local script = Instance.new('LocalScript', hitboxExpander)
+local function DMNAYGZ_fake_script() -- HitBoxbutton.Hitbox Script 
+	local script = Instance.new('LocalScript', HitBoxbutton)
 
 	-- Script per il TextButton
 	local button = script.Parent
@@ -177,19 +361,19 @@ local function IMALTWI_fake_script() -- hitboxExpander.Hitbox Script
 					for _,v in pairs(game[players]:GetPlayers()) do
 						if v.Name ~= plr.Name and v.Character then
 							v.Character.RightUpperLeg.CanCollide = false
-							v.Character.RightUpperLeg.Transparency = 10
+							v.Character.RightUpperLeg.Transparency = 30
 							v.Character.RightUpperLeg.Size = Vector3.new(13,13,13)
 	
 							v.Character.LeftUpperLeg.CanCollide = false
-							v.Character.LeftUpperLeg.Transparency = 10
+							v.Character.LeftUpperLeg.Transparency = 30
 							v.Character.LeftUpperLeg.Size = Vector3.new(13,13,13)
 	
 							v.Character.HeadHB.CanCollide = false
-							v.Character.HeadHB.Transparency = 10
+							v.Character.HeadHB.Transparency = 30
 							v.Character.HeadHB.Size = Vector3.new(13,13,13)
 	
 							v.Character.HumanoidRootPart.CanCollide = false
-							v.Character.HumanoidRootPart.Transparency = 10
+							v.Character.HumanoidRootPart.Transparency = 30
 							v.Character.HumanoidRootPart.Size = Vector3.new(13,13,13)
 						end
 					end
@@ -200,9 +384,92 @@ local function IMALTWI_fake_script() -- hitboxExpander.Hitbox Script
 	
 	button.MouseButton1Click:Connect(onButtonClick)
 end
-coroutine.wrap(IMALTWI_fake_script)()
-local function SECRUHO_fake_script() -- ArsenalFrame.Frame spostabile del Explode UI 
-	local script = Instance.new('LocalScript', ArsenalFrame)
+coroutine.wrap(DMNAYGZ_fake_script)()
+local function INXUE_fake_script() -- InfiniteAmmoButton.infinite ammo script 
+	local script = Instance.new('LocalScript', InfiniteAmmoButton)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		while wait() do
+			local player = game:GetService("Players").LocalPlayer
+			local ammoCount = player:WaitForChild("PlayerGui"):WaitForChild("GUI"):WaitForChild("Client"):WaitForChild("Variables"):FindFirstChild("ammocount")
+			local ammoCount2 = player:WaitForChild("PlayerGui"):WaitForChild("GUI"):WaitForChild("Client"):WaitForChild("Variables"):FindFirstChild("ammocount2")
+	
+			if ammoCount then
+				ammoCount.Value = 999
+			end
+	
+			if ammoCount2 then
+				ammoCount2.Value = 999
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(INXUE_fake_script)()
+local function ENPAYY_fake_script() -- EspEnableButton.LocalScript 
+	local script = Instance.new('LocalScript', EspEnableButton)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		-- Your loadstring script
+		local success, err = pcall(function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP'))()
+		end)
+	
+		if not success then
+			warn("Error executing script: " .. err)
+		end
+	end)
+	
+end
+coroutine.wrap(ENPAYY_fake_script)()
+local function AQKMVL_fake_script() -- Closed.LocalScript 
+	local script = Instance.new('LocalScript', Closed)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local frame = button.Parent
+	local minimized = false
+	local UserInputService = game:GetService("UserInputService")
+	
+	-- Function to toggle the frame's visibility
+	local function toggleFrame()
+		if not minimized then
+			frame.Visible = false -- Hide the frame
+			minimized = true
+		else
+			frame.Visible = true -- Show the frame
+			minimized = false
+		end
+	end
+	
+	-- Connect button click to toggleFrame function
+	button.MouseButton1Click:Connect(toggleFrame)
+	
+	-- Function to handle key press
+	local function onKeyPress(input, gameProcessed)
+		if not gameProcessed then
+			if input.KeyCode == Enum.KeyCode.LeftAlt or input.KeyCode == Enum.KeyCode.RightAlt then
+				toggleFrame()
+			end
+		end
+	end
+	
+	-- Connect key press to onKeyPress function
+	UserInputService.InputBegan:Connect(onKeyPress)
+	
+end
+coroutine.wrap(AQKMVL_fake_script)()
+local function UMOMT_fake_script() -- Frame.drag script 
+	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
 	local TweenService = game:GetService("TweenService")
@@ -249,55 +516,4 @@ local function SECRUHO_fake_script() -- ArsenalFrame.Frame spostabile del Explod
 	end)
 	
 end
-coroutine.wrap(SECRUHO_fake_script)()
-local function PXPTCKW_fake_script() -- SilentAim_2.SilentAim Script 
-	local script = Instance.new('LocalScript', SilentAim_2)
-
-	-- Script per il TextButton
-	local button = script.Parent
-	
-	local function onButtonClick()
-		print("Hello, here is the Galaxy HitBox modifier")
-		print("OP follow us on Youtube and discord")
-	
-		function getplrsname()
-			for i,v in pairs(game:GetChildren()) do
-				if v.ClassName == "Players" then
-					return v.Name
-				end
-			end
-		end
-	
-		local players = getplrsname()
-		local plr = game[players].LocalPlayer
-	
-		coroutine.resume(coroutine.create(function()
-			while wait(1) do
-				coroutine.resume(coroutine.create(function()
-					for _,v in pairs(game[players]:GetPlayers()) do
-						if v.Name ~= plr.Name and v.Character then
-							v.Character.RightUpperLeg.CanCollide = false
-							v.Character.RightUpperLeg.Transparency = 50
-							v.Character.RightUpperLeg.Size = Vector3.new(13,13,13)
-	
-							v.Character.LeftUpperLeg.CanCollide = false
-							v.Character.LeftUpperLeg.Transparency = 50
-							v.Character.LeftUpperLeg.Size = Vector3.new(13,13,13)
-	
-							v.Character.HeadHB.CanCollide = false
-							v.Character.HeadHB.Transparency = 50
-							v.Character.HeadHB.Size = Vector3.new(13,13,13)
-	
-							v.Character.HumanoidRootPart.CanCollide = false
-							v.Character.HumanoidRootPart.Transparency = 50
-							v.Character.HumanoidRootPart.Size = Vector3.new(13,13,13)
-						end
-					end
-				end))
-			end
-		end))
-	end
-	
-	button.MouseButton1Click:Connect(onButtonClick)
-end
-coroutine.wrap(PXPTCKW_fake_script)()
+coroutine.wrap(UMOMT_fake_script)()
